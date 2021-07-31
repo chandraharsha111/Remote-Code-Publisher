@@ -1,0 +1,39 @@
+
+                                      CodeAnalysis - Version 1.4
+    ==============================================================================================
+     Mon May  1 13:24:02 2017
+     Path: "C:\Users\chand\Desktop\2017 Spring\OOD\CodeAnalyzerEx\CodeAnalyzerEx\ClientGUI"
+     Args: MainWindow.xaml.cs, /m, /r, /f
+                                                                               
+           Code Metrics - Start Line, Size (lines/code), and Complexity (number of scopes)
+    ==============================================================================================
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+                             namespace                   Global Namespace       1       1      17
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+        MainWindow.xaml.cs   namespace                          ClientGUI      58      72      15
+        MainWindow.xaml.cs       class                         MainWindow      59      66      13
+        MainWindow.xaml.cs    function                         MainWindow      63       5       1
+        MainWindow.xaml.cs    function                          sendFiles      70       3       1
+        MainWindow.xaml.cs    function                UploadFilesToServer      75       3       1
+        MainWindow.xaml.cs    function                        SelectFiles      80       8       2
+        MainWindow.xaml.cs    function                    Server_Response      91       3       1
+        MainWindow.xaml.cs    function                    SelectDirectory      95      14       3
+        MainWindow.xaml.cs    function                            Results     110       3       1
+        MainWindow.xaml.cs    function                          sendFiles     114       3       1
+        MainWindow.xaml.cs    function               DisplaySelectedFiles     120       3       1
+        MainWindow.xaml.cs       class                             Client     126       4       1
+        MainWindow.xaml.cs    function                               Main     131       5       1
+
+                          Functions Exceeding Metric Limits and Public Data
+    ==============================================================================================
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+
+
+
+    searched    14 dirs
+   processed     1 files

@@ -1,0 +1,183 @@
+<html>
+<head>
+<link rel="stylesheet" href="cssStyleFile.css">
+<script src="ScopeHandler.js"></script>
+</head>
+<body><pre>/<a href = "Utilities.h.html">Utilities.h</a>
+//////////////////////////////////////////////////////////////////////
+// Utilities.cpp - small, generally usefule, helper classes          //
+// ver 1.4                                                           //
+// Language:    C++, Visual Studio 2015                              //
+// Platform:    Dell XPS 8900, Windows 10                            //
+// Application: Most Projects, CSE687 - Object Oriented Design       //
+// Author:      Jim Fawcett, Syracuse University, CST 4-187          //
+//              jfawcett@twcny.rr.com                                //
+///////////////////////////////////////////////////////////////////////
+
+//#include &lt;cctype&gt;
+#include &lt;iostream&gt;
+#include &lt;iomanip&gt;
+#include &lt;locale&gt;
+#include &lt;clocale&gt;
+#include "Utilities.h"
+
+using namespace Utilities;
+
+/*
+*  Note: 
+*  The std::string src argument must be pass by value so that we can pass
+*  std::ostringstream.out() to the first argument and std::ostringstream out
+*  to the last argument, e.g., the same std::ostringstream object for both
+*  arguments.  Otherwise we attempt to insert out's string into itself.
+*/
+void StringHelper::Title(std::string src, std::ostream& out)
+<input type='button' value='-' id='bt1' onclick='scopeHandle(this);'//>{<div id='dbt1'>
+  out &lt;&lt; "\n  " &lt;&lt; src;
+  out &lt;&lt; "\n " &lt;&lt; std::string(src.size() + 2, '=');
+}</div>
+
+void StringHelper::Title(std::string src, std::ostringstream& out)
+<input type='button' value='-' id='bt2' onclick='scopeHandle(this);'//>{<div id='dbt2'>
+  out.str("");
+  out &lt;&lt; "\n  " &lt;&lt; src;
+  out &lt;&lt; "\n " &lt;&lt; std::string(src.size() + 2, '=');
+}</div>
+
+void StringHelper::title(std::string src, std::ostream& out)
+<input type='button' value='-' id='bt3' onclick='scopeHandle(this);'//>{<div id='dbt3'>
+  out &lt;&lt; "\n  " &lt;&lt; src;
+  out &lt;&lt; "\n " &lt;&lt; std::string(src.size() + 2, '-');
+}</div>
+
+void StringHelper::title(std::string src, std::ostringstream& out)
+<input type='button' value='-' id='bt4' onclick='scopeHandle(this);'//>{<div id='dbt4'>
+  out.str("");
+  out &lt;&lt; "\n  " &lt;&lt; src;
+  out &lt;&lt; "\n " &lt;&lt; std::string(src.size() + 2, '-');
+}</div>
+
+void StringHelper::sTitle(std::string src, size_t offset, size_t width, std::ostream& out, char underline)
+<input type='button' value='-' id='bt5' onclick='scopeHandle(this);'//>{<div id='dbt5'>
+  if (width &lt; src.size())
+    width = src.size();
+  size_t lwidth = (width - src.size()) / 2;
+  out &lt;&lt; "\n  " &lt;&lt; std::setw(offset) &lt;&lt; "" &lt;&lt; std::setw(lwidth) &lt;&lt; " " &lt;&lt; src;
+  out &lt;&lt; "\n " &lt;&lt; std::setw(offset) &lt;&lt; "" &lt;&lt; std::string(width + 2, underline);
+}</div>
+
+void StringHelper::sTitle(std::string src, size_t offset, size_t width, std::ostringstream& out, char underline)
+<input type='button' value='-' id='bt6' onclick='scopeHandle(this);'//>{<div id='dbt6'>
+  out.str("");
+  if (width &lt; src.size())
+    width = src.size();
+  size_t lwidth = (width - src.size()) / 2;
+  out &lt;&lt; "\n  " &lt;&lt; std::setw(offset) &lt;&lt; "" &lt;&lt; std::setw(lwidth) &lt;&lt; " " &lt;&lt; src;
+  out &lt;&lt; "\n " &lt;&lt; std::setw(offset) &lt;&lt; "" &lt;&lt; std::string(width + 2, underline);
+}</div>
+
+std::vector&lt;std::string&gt; StringHelper::split(const std::string& src)
+<input type='button' value='-' id='bt7' onclick='scopeHandle(this);'//>{<div id='dbt7'>
+  std::vector&lt;std::string&gt; accum;
+  std::string temp;
+  std::locale loc;
+  size_t index = 0;
+  do
+  <input type='button' value='-' id='bt8' onclick='scopeHandle(this);'//>{<div id='dbt8'>
+    while ((isspace(src[index], loc) || src[index] == ',') && src[index] != '\n')
+    <input type='button' value='-' id='bt9' onclick='scopeHandle(this);'//>{<div id='dbt9'>
+      ++index;
+      if (temp.size() &gt; 0)
+      <input type='button' value='-' id='bt10' onclick='scopeHandle(this);'//>{<div id='dbt10'>
+        accum.push_back(temp);
+        temp.clear();
+      }</div>
+    }</div>
+    if(src[index] != '\0')
+      temp += src[index];
+  }</div> while (index++ &lt; src.size());
+  if(temp.size() &gt; 0)
+    accum.push_back(temp);
+  return accum;
+}</div>
+
+//----&lt; remove leading and trailing whitespace &gt;---------------------
+
+std::string StringHelper::trim(const std::string& src)
+<input type='button' value='-' id='bt11' onclick='scopeHandle(this);'//>{<div id='dbt11'>
+	std::locale loc;
+	std::string trimmed = src;
+	size_t first = 0;
+	while (true)
+	<input type='button' value='-' id='bt12' onclick='scopeHandle(this);'//>{<div id='dbt12'>
+		if (std::isspace(trimmed[first], loc))
+			++first;
+		else
+			break;
+	}</div>
+	size_t last = trimmed.size() - 1;
+	while (true)
+	<input type='button' value='-' id='bt13' onclick='scopeHandle(this);'//>{<div id='dbt13'>
+		if (std::isspace(trimmed[last], loc) && last &gt; 0)
+			--last;
+		else
+			break;
+
+	}</div>
+	return trimmed.substr(first, last - first + 1);
+}</div>
+
+void Utilities::putline()
+<input type='button' value='-' id='bt14' onclick='scopeHandle(this);'//>{<div id='dbt14'>
+  std::cout &lt;&lt; "\n";
+}</div>
+
+
+#ifdef TEST_UTILITIES
+
+using Utils = Utilities::StringHelper;
+
+int main()
+<input type='button' value='-' id='bt15' onclick='scopeHandle(this);'//>{<div id='dbt15'>
+  Utils::Title("Testing Utilities Package");
+  putline();
+
+  Utils::title("test StringHelper::split(std::string)");
+
+  std::string test = "a, \n, bc, de, efg, i, j k lm nopq rst";
+  std::cout &lt;&lt; "\n  test string = " &lt;&lt; test;
+  
+  std::vector&lt;std::string&gt; result = StringHelper::split(test);
+  
+  std::cout &lt;&lt; "\n";
+  for (auto item : result)
+  <input type='button' value='-' id='bt16' onclick='scopeHandle(this);'//>{<div id='dbt16'>
+    if (item == "\n")
+      std::cout &lt;&lt; "\n  " &lt;&lt; "newline";
+    else
+      std::cout &lt;&lt; "\n  " &lt;&lt; item;
+  }</div>
+  std::cout &lt;&lt; "\n";
+
+  Utils::title("test std::string Converter&lt;T&gt;::toString(T)");
+
+  std::string conv1 = Converter&lt;double&gt;::toString(3.1415927);
+  std::string conv2 = Converter&lt;int&gt;::toString(73);
+  std::string conv3 = Converter&lt;std::string&gt;::toString("a_test_string plus more");
+
+  std::cout &lt;&lt; "\n  Converting from values to strings: ";
+  std::cout &lt;&lt; conv1 &lt;&lt; ", " &lt;&lt; conv2 &lt;&lt; ", " &lt;&lt; conv3;
+  putline();
+
+  Utils::title("test T Converter&lt;T&gt;::toValue(std::string)");
+
+  std::cout &lt;&lt; "\n  Converting from strings to values: ";
+  std::cout &lt;&lt; Converter&lt;double&gt;::toValue(conv1) &lt;&lt; ", ";
+  std::cout &lt;&lt; Converter&lt;int&gt;::toValue(conv2) &lt;&lt; ", ";
+  std::cout &lt;&lt; Converter&lt;std::string&gt;::toValue(conv3);
+
+  std::cout &lt;&lt; "\n\n";
+  return 0;
+}</div>
+#endif
+</pre></body>
+</html>

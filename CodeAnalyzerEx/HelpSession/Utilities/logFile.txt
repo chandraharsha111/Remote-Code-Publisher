@@ -1,0 +1,31 @@
+
+                                      CodeAnalysis - Version 1.4
+    ==============================================================================================
+     Tue Apr  4 19:01:54 2017
+     Path: "C:\Users\chand\Desktop\2017 Spring\OOD\Project3\CodeAnalyzerEx\CodeAnalyzerEx\HelpSession\Utilities"
+     Args: Utilities.h, /m, /r, /f
+                                                                               
+           Code Metrics - Start Line, Size (lines/code), and Complexity (number of scopes)
+    ==============================================================================================
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+                             namespace                   Global Namespace       1       1       6
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+               Utilities.h    function                               void      12       1       1
+               Utilities.h    function                               void      15       3       1
+               Utilities.h    function                               void      20       3       1
+               Utilities.h    function                               void      24       1       1
+               Utilities.h    function                               void      26       1       1
+
+                          Functions Exceeding Metric Limits and Public Data
+    ==============================================================================================
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+
+
+
+    searched     2 dirs
+   processed     1 files

@@ -1,0 +1,29 @@
+
+                                      CodeAnalysis - Version 1.4
+    ==============================================================================================
+     Tue Apr  4 18:59:38 2017
+     Path: "C:\Users\chand\Desktop\2017 Spring\OOD\Project3\CodeAnalyzerEx\CodeAnalyzerEx\HelpSession\DbToXml"
+     Args: persist.cpp, /m, /r, /f
+                                                                               
+           Code Metrics - Start Line, Size (lines/code), and Complexity (number of scopes)
+    ==============================================================================================
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+                             namespace                   Global Namespace       1       1       7
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+               persist.cpp    function                              toXml      32      43       3
+               persist.cpp    function                          toXmldemo      84      27       2
+               persist.cpp    function                               main     113      12       1
+
+                          Functions Exceeding Metric Limits and Public Data
+    ==============================================================================================
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+
+
+
+    searched     5 dirs
+   processed     1 files

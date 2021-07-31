@@ -1,0 +1,5 @@
+﻿  CLI_Shim.cpp
+  .NETFramework,Version=v4.5.2.AssemblyAttributes.cpp
+  CLI_Shim.obj : /DEBUG:FASTLINK is not supported when managed code is present; restarting link with /DEBUG:FULL
+  CLI-Shim.vcxproj -> C:\su\cse687\code\Project4HelpS17\CSharpCliShim-WPF-App\x64\Debug\CLI-Shim.exe
+  CLI-Shim.vcxproj -> C:\su\cse687\code\Project4HelpS17\CSharpCliShim-WPF-App\x64\Debug\CLI-Shim.pdb (Partial PDB)

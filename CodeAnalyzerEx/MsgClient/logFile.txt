@@ -1,0 +1,41 @@
+
+                                      CodeAnalysis - Version 1.4
+    ==============================================================================================
+     Mon May  1 13:26:52 2017
+     Path: "C:\Users\chand\Desktop\2017 Spring\OOD\CodeAnalyzerEx\CodeAnalyzerEx\MsgClient"
+     Args: MsgClient.cpp, /m, /r, /f
+                                                                               
+           Code Metrics - Start Line, Size (lines/code), and Complexity (number of scopes)
+    ==============================================================================================
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+                             namespace                   Global Namespace       1       1      39
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+             MsgClient.cpp       class                      ClientCounter      52       7       3
+             MsgClient.cpp    function                      ClientCounter      53       2       1
+             MsgClient.cpp    function                              count      54       2       1
+             MsgClient.cpp       class                          MsgClient      68       9      12
+             MsgClient.cpp    function                        makeMessage      86      27       3
+             MsgClient.cpp    function                        sendMessage     116       4       1
+             MsgClient.cpp    function                           sendFile     128      32       2
+             MsgClient.cpp    function                            execute     162      33       5
+             MsgClient.cpp       class   ClientHandlerReceivingFromServer     196      10      18
+             MsgClient.cpp    function   ClientHandlerReceivingFromServer     197       2       1
+             MsgClient.cpp    function                        readMessage     207      45      10
+             MsgClient.cpp    function                           readFile     254      33       3
+             MsgClient.cpp    function                         operator()     288      10       3
+             MsgClient.cpp    function                               main     300      24       5
+             MsgClient.cpp    function                                 t1     302       1       1
+
+                          Functions Exceeding Metric Limits and Public Data
+    ==============================================================================================
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+
+
+
+    searched     3 dirs
+   processed     1 files

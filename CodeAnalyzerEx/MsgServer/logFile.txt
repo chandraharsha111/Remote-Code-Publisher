@@ -1,0 +1,38 @@
+
+                                      CodeAnalysis - Version 1.4
+    ==============================================================================================
+     Mon May  1 13:27:06 2017
+     Path: "C:\Users\chand\Desktop\2017 Spring\OOD\CodeAnalyzerEx\CodeAnalyzerEx\MsgServer"
+     Args: MsgServer.cpp, /m, /r, /f
+                                                                               
+           Code Metrics - Start Line, Size (lines/code), and Complexity (number of scopes)
+    ==============================================================================================
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+                             namespace                   Global Namespace       1       1      38
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+             MsgServer.cpp       class                      ClientHandler      65      10      18
+             MsgServer.cpp    function                      ClientHandler      66       2       1
+             MsgServer.cpp    function                        readMessage      77      48      10
+             MsgServer.cpp    function                           readFile     132      33       3
+             MsgServer.cpp    function                         operator()     167      12       3
+             MsgServer.cpp       class                MsgClientFromServer     180       9      14
+             MsgServer.cpp    function                        makeMessage     192      26       3
+             MsgServer.cpp    function                           sendFile     220      32       2
+             MsgServer.cpp    function                        sendMessage     253       4       1
+             MsgServer.cpp    function                            execute     257      36       7
+             MsgServer.cpp    function                               main     297      47       5
+             MsgServer.cpp    function                                 t1     319       1       1
+
+                          Functions Exceeding Metric Limits and Public Data
+    ==============================================================================================
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+
+
+
+    searched     3 dirs
+   processed     1 files

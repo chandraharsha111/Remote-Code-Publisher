@@ -1,0 +1,31 @@
+
+                                      CodeAnalysis - Version 1.4
+    ==============================================================================================
+     Tue Apr  4 18:59:24 2017
+     Path: "C:\Users\chand\Desktop\2017 Spring\OOD\Project3\CodeAnalyzerEx\CodeAnalyzerEx\HelpSession\Convert"
+     Args: Convert.h, /m, /r, /f
+                                                                               
+           Code Metrics - Start Line, Size (lines/code), and Complexity (number of scopes)
+    ==============================================================================================
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+                             namespace                   Global Namespace       1       1       6
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+                 Convert.h       class                            Convert      36       7       5
+                 Convert.h    function                                  >      37       2       1
+                 Convert.h    function                           toString      49       5       1
+                 Convert.h    function                         fromString      61       6       1
+                 Convert.h    function                                 id      71       3       1
+
+                          Functions Exceeding Metric Limits and Public Data
+    ==============================================================================================
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+
+
+
+    searched     5 dirs
+   processed     1 files

@@ -1,0 +1,17 @@
+C:\Users\chand\Downloads\CSharpCliShim-WPF-App\ClientGUI\bin\x86\Debug\ClientGUI.exe.config
+C:\Users\chand\Downloads\CSharpCliShim-WPF-App\ClientGUI\bin\x86\Debug\ClientGUI.exe
+C:\Users\chand\Downloads\CSharpCliShim-WPF-App\ClientGUI\bin\x86\Debug\ClientGUI.pdb
+C:\Users\chand\Downloads\CSharpCliShim-WPF-App\ClientGUI\bin\x86\Debug\CLIShim.dll
+C:\Users\chand\Downloads\CSharpCliShim-WPF-App\ClientGUI\bin\x86\Debug\CLIShim.pdb
+C:\Users\chand\Downloads\CSharpCliShim-WPF-App\ClientGUI\obj\x86\Debug\MainWindow.g.cs
+C:\Users\chand\Downloads\CSharpCliShim-WPF-App\ClientGUI\obj\x86\Debug\App.g.cs
+C:\Users\chand\Downloads\CSharpCliShim-WPF-App\ClientGUI\obj\x86\Debug\ClientGUI_MarkupCompile.cache
+C:\Users\chand\Downloads\CSharpCliShim-WPF-App\ClientGUI\obj\x86\Debug\ClientGUI_MarkupCompile.lref
+C:\Users\chand\Downloads\CSharpCliShim-WPF-App\ClientGUI\obj\x86\Debug\MainWindow.baml
+C:\Users\chand\Downloads\CSharpCliShim-WPF-App\ClientGUI\obj\x86\Debug\ClientGUI.g.resources
+C:\Users\chand\Downloads\CSharpCliShim-WPF-App\ClientGUI\obj\x86\Debug\ClientGUI.Properties.Resources.resources
+C:\Users\chand\Downloads\CSharpCliShim-WPF-App\ClientGUI\obj\x86\Debug\ClientGUI.csproj.GenerateResource.Cache
+C:\Users\chand\Downloads\CSharpCliShim-WPF-App\ClientGUI\obj\x86\Debug\ClientGUI.exe
+C:\Users\chand\Downloads\CSharpCliShim-WPF-App\ClientGUI\obj\x86\Debug\ClientGUI.pdb
+C:\Users\chand\Downloads\CSharpCliShim-WPF-App\ClientGUI\obj\x86\Debug\ClientGUI.csprojResolveAssemblyReference.cache
+C:\Users\chand\Desktop\CodeAnalyzerEx\CodeAnalyzerEx\CodeAnalyzerEx\ClientGUI\bin\x86\Debug\ClientGUI.exe.config

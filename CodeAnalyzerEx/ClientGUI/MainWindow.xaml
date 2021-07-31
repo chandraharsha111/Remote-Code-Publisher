@@ -1,0 +1,17 @@
+﻿<Window x:Class="ClientGUI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ClientGUI"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="548.218" Width="661.881">
+    <Grid Margin="0,0,0,-31">
+        <Button x:Name="button" Content="Upload files to Server" HorizontalAlignment="Left" Margin="301,251,0,0" VerticalAlignment="Top" Width="120" Height="28" Click="sendFiles"/>
+        <TextBox x:Name="Result" HorizontalAlignment="Left" Height="179" Margin="167,298,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="450" TextChanged="Results"/>
+        <Button x:Name="SelectTestRequest" Content="SelectDirectory" HorizontalAlignment="Left" Margin="27,66,0,0" VerticalAlignment="Top" Width="100" Click="SelectDirectory" Height="31"/>
+        <ListBox x:Name="ListBoxFiles" HorizontalAlignment="Left" Height="184" Margin="167,32,0,0" VerticalAlignment="Top" Width="450" />
+
+        <Button x:Name="Logs" Content="Server Response" HorizontalAlignment="Left" Margin="27,328,0,0" VerticalAlignment="Top" Height ="31" Width="100" Click="Server_Response"/>
+    </Grid>
+</Window>

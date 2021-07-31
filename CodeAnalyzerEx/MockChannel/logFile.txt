@@ -1,0 +1,41 @@
+
+                                      CodeAnalysis - Version 1.4
+    ==============================================================================================
+     Mon May  1 13:26:15 2017
+     Path: "C:\Users\chand\Desktop\2017 Spring\OOD\CodeAnalyzerEx\CodeAnalyzerEx\MockChannel"
+     Args: MockChannel.cpp, /m, /r, /f
+                                                                               
+           Code Metrics - Start Line, Size (lines/code), and Complexity (number of scopes)
+    ==============================================================================================
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+                             namespace                   Global Namespace       1       1      18
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+           MockChannel.cpp       class                              Sendr      23       7       3
+           MockChannel.cpp    function                        postMessage      32       3       1
+           MockChannel.cpp    function                              queue      35       2       1
+           MockChannel.cpp       class                              Recvr      43       7       3
+           MockChannel.cpp    function                         getMessage      52       3       1
+           MockChannel.cpp    function                              queue      57       3       1
+           MockChannel.cpp       class                        MockChannel      65      11       7
+           MockChannel.cpp    function                        MockChannel      78       2       1
+           MockChannel.cpp    function                              start      84      23       4
+           MockChannel.cpp    function                             thread      87      18       3
+           MockChannel.cpp    function                               stop     108       2       1
+           MockChannel.cpp    function                        createSendr     112       2       1
+           MockChannel.cpp    function                        createRecvr     114       2       1
+           MockChannel.cpp    function                  createMockChannel     117       4       1
+           MockChannel.cpp    function                               main     127      19       1
+
+                          Functions Exceeding Metric Limits and Public Data
+    ==============================================================================================
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+
+
+
+    searched     6 dirs
+   processed     1 files
